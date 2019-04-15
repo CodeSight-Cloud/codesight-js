@@ -1,0 +1,19 @@
+<html>
+    <body>
+        <h1>Client Test</h1>
+        <button onclick="myFunction()">Call myFunction</button>
+    </body>
+    <script src="dist/bundle.js"></script>
+    <script>
+        cdst.initialize({
+            project: '04abb095-0015-a179-0cb2-bb9c112c990a',
+            environment: 'e95644b2-7630-d284-0328-112a331a3b2b',
+            apiKey: 'f195ac2b35987807a1822a73de' 
+        });
+
+        function myFunction() {
+            cdst.invoke('myFunction', 'index.js');
+            cdst.instance.postSession();
+        }
+    </script>
+</html>
