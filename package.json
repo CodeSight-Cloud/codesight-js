@@ -1,5 +1,5 @@
 {
-  "name": "codesight-js",
+  "name": "@codesight/codesight-js",
   "version": "1.0.0",
   "description": "JavaScript client for capturing events in web browsers for the CodeSight platform",
   "scripts": {
