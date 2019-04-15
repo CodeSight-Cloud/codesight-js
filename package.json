@@ -1,6 +1,6 @@
 {
   "name": "@codesight/codesight-js",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "JavaScript client for capturing events in web browsers for the CodeSight platform",
   "scripts": {
     "type-check": "tsc --noEmit",

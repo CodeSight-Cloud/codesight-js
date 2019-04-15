@@ -10,12 +10,12 @@ JavaScript client for capturing events in web browsers or nodejs for [CodeSight]
 
 yarn
 ```
-yarn add codesight-js
+yarn add @codesight/codesight-js
 ```
 
 npm
 ```
-npm install codesight-js
+npm i @codesight/codesight-js
 ```
 
 script tag
